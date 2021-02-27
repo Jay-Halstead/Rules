@@ -15,3 +15,8 @@ function addClientChat(message)
         aregs = {"Server bot"message}
     })
 end
+
+
+RegisterCommand("clear", function (source, args)
+      TriggerEvent (chat:clear)
+end, false
